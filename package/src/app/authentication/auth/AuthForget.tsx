@@ -17,7 +17,7 @@ interface AuthForgetProps {
 const AuthForget: React.FC<AuthForgetProps> = ({ subtext, subtitle }) => (
   <>
     <Typography fontWeight="700" variant="h2" mb={1} textAlign="center">
-      Forgot Password
+    <h2>Forgot your password?</h2>
     </Typography>
     <Typography
       variant="subtitle1"
@@ -25,8 +25,8 @@ const AuthForget: React.FC<AuthForgetProps> = ({ subtext, subtitle }) => (
       color="textSecondary"
       mb={1}
     >
-      Enter your email address and we'll send you a link to reset your password.
-    </Typography>
+      <p>Don&rsquo;t worry, we&rsquo;ll help you reset it. Just enter your email below.</p>
+      </Typography>
     <CustomTextField
       variant="outlined"
       fullWidth
